@@ -178,3 +178,61 @@ G（Goroutine）
 panic的设计原意，是在当程序或协程遇到严重错误，完全无法继续运行下去的时候，才会调用（比如段错误、共享资源竞争错误）。这相当于Linux中FATAL级别的错误日志。仅仅用来进行普通的错误处理（ERROR级别），杀鸡用牛刀了。
 panic调用本身，相比于普通的业务逻辑，的系统开销是比较大的。而错误处理这种事情，可能是常态化逻辑，频繁的panic-recover操作，也会大大降低系统的吞吐。
 ```
+
+##### slice 
+
+```go
+// runtime/slice.go
+type slice struct {
+    array unsafe.Pointer // 元素指针
+    len   int // 长度 
+    cap   int // 容量
+}
+slice 共有三个属性： 指针，指向底层数组； 长度，表示切片可用元素的个数，也就是说使用下标对 slice 的元素进行访问时，下标不能超过 slice 的长度； 容量，底层数组的元素个数，容量 >= 长度。在底层数组不进行扩容的情况下，容量也是 slice 可以扩张的最大限度。
+```
+
+
+##### MPG 
+
+```go
+G: Goroutine 执行的上下文环境。
+M: 操作系统线程。
+P: Processer。进程调度的关键，调度器，也可以认为约等于CPU。
+
+
+
+```
+
+##### 内存泄露问题
+
+```go
+（1）goroutine 申请过多
+goroutine 申请过多，增长速度快于释放速度，就会导致 goroutine 越来越多。
+（2）goroutine 阻塞
+① I/O 问题 问题概述：
+I/O 连接未设置超时时间，导致 goroutine 一直在等待。
+③ waitgroup 使用不当
+waitgroup 的 Add、Done 和 wait 数量不匹配，会导致 wait 一直在等待。
+
+2. select 阻塞
+3. channel 阻塞
+4. 定时器使用不当
+5. slice 引起内存泄露
+两个 slice 共享地址，其中一个为全局变量，另一个也无法被 gc；
+append slice 后一直使用，未进行清理。
+
+```
+
+##### 相关连接
+```go
+GO工程化社区实践
+https://mp.weixin.qq.com/s/vHkrgM8lfFQ6stCWH0tnTg
+
+GO工程化规范设计
+https://mp.weixin.qq.com/s/1cy0vbiU5MZNVazvOsMf5Q
+
+如果你是一个Golang面试官，你会问哪些问题？
+https://mp.weixin.qq.com/s/6h1aQ6epm4HuVseVj831QQ
+
+
+```
