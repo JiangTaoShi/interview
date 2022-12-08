@@ -107,7 +107,8 @@ defer 语句经常被用于处理成对的操作，如打开、关闭、连接�
 ```
 
 ##### 协程
-
+![goroutine](./goImages/goroutine-01.png)
+![goroutine](./goImages/goroutine-02.png)
 ```go
 轻松创建上百万的协程而不会导致系统资源枯竭、初始分配4K堆栈，随着程序的执行自动增长删除
 由Go Runtime负责管理，创建销毁非常小，是用户级的
@@ -189,6 +190,15 @@ type slice struct {
     cap   int // 容量
 }
 slice 共有三个属性： 指针，指向底层数组； 长度，表示切片可用元素的个数，也就是说使用下标对 slice 的元素进行访问时，下标不能超过 slice 的长度； 容量，底层数组的元素个数，容量 >= 长度。在底层数组不进行扩容的情况下，容量也是 slice 可以扩张的最大限度。
+
+切片内存技巧
+切片高效操作的要点是要降低内存分配的次数，尽量保证 append 操作不会超出
+cap 的容量，降低触发内存分配的次数和每次分配内存大小。
+
+避免切片内存泄漏
+切片操作并不会复制底层的数据。底层的数组会被保存在内存中，直到
+它不再被引用。但是有时候可能会因为一个小的内存引用而导致底层整个数组处于被
+使用的状态，这会延迟自动内存回收器对底层数组的回收。
 ```
 
 
@@ -223,6 +233,21 @@ append slice 后一直使用，未进行清理。
 
 ```
 
+##### 程序初始化
+![pkg-init](./goImages/pkg-init.png)
+```go
+要注意的是在mian函数执行前所有代码都运行在同一个goroutine里面,也是运行在程序的主系统进程，如果某个init函数启动新的goroutine，新的goroutine和main函数是并发执行的
+```
+
+##### 面向并发的内存模型
+```go
+常见的并行模型有多种。主要有多线程、消息传递。从理论上来看消息传递和多线程是等价的。
+GO是基于消息并发的模型（CSP），通过通信来共享内存，而不是通过共享内存来通信。Goroutine之间是可以共享内存的。
+
+
+```
+
+
 ##### 相关连接
 ```go
 GO工程化社区实践
@@ -233,6 +258,9 @@ https://mp.weixin.qq.com/s/1cy0vbiU5MZNVazvOsMf5Q
 
 如果你是一个Golang面试官，你会问哪些问题？
 https://mp.weixin.qq.com/s/6h1aQ6epm4HuVseVj831QQ
+
+写Go还是Java？
+https://mp.weixin.qq.com/s/Xw6QKXWqueQfiQp5c1QumQ
 
 
 ```
