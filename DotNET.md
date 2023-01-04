@@ -3,9 +3,28 @@
    - 内置IOC容器（生命周期）、Logger
    - Middleware
    - 配置文件（ settings json ）
-   
-2. .Net fw各版本特性
+   - 支持异步编程
+   - 支持web socket和signal IR
 
+2. NetCore启动流程
+  ![pkg-init](./netImages/webapi-start.png)
+   
+```
+1.main方法启动
+2.创建hostBuilder
+
+3.配置hostBuilder
+3.1 配置文件
+3.2 
+3.3 服务中间件注册
+
+4.Build()
+4.1 根据前面配置进行加载
+4.2 注入相应服务
+5.Run()
+```
+
+3. .Net fw各版本特性
    ```
    .Net 2.0=CLR+BCL+C#(VB.Net)+Win Form+Web Form  泛型 使用泛型类型可以最大限度地重用代码、保护类型的安全以及提高性能。 泛型最常见的用途是创建集合类
    .Net 3.0=.Net 2.0+WCF+WPF+WF+WCS
@@ -13,6 +32,12 @@
    .Net 4.0 动态类型
    .NET 4.5 Task
    ```
+
+IEnumerable的作用
+```
+在使用Linq查询数据时经常以IEnumerable<T>来作为数据查询返回对象，在使用foreach进行遍历时需要该对象实现IEnumerable接口，这2个功能让我对IEnumerable充满了无穷的好奇。然而在VS中查看IEnumerable的定义时发现它只定义了一个GetEnumerator()方法，关于IEnumerator我知道它依靠MoveNext和Current来达到Foreach的遍历，但是具体是如何将数据进行迭代的，完整的流程是怎样的？这些疑虑我觉得只有亲自实现一次自定义集合foreach才能够解决。为此我需要定义一个集合FruitShop类，它是一个关于Fruit对象的集合，代码如下所示。整个流程是第一次遇到foreach里的fruitShop对象时就会去执行FruitShop中的GetEnumerator方法，接着每次执行in关键字就会去执行MoveNext方法，每次取数据则是调用Current属性。 
+``` 
+
 
 3. New 操作符所做的事情
 
@@ -57,6 +82,12 @@
 
 8. 用没用过Task(Async await)及实现原理 、与Thread比较
 
+对于Async void函数由于没有返回值，我们只能使用确切地等待时间来等待，没有任何对象可以供我们监控该异步操作的状态。
+
+方法体中使用await，方法也必须声明为async，另一个方法调用声明了async的方法，也需要用await，如果不用await，就会立即从被调用方法返回，继续执行后面的代码，而不会等待被调用async方法实际执行完毕再继续执行后面的代码。
+
+第二个是利用Task.Result来直接获取结果（会阻塞主进程，慎用！）。
+
 当我们使用async方法是，编译器就会生成一个状态机，在方法内部的await会做如下两件事：
 1：执行await表达式
 2：查看等待的方法是否完成
@@ -70,7 +101,7 @@
      再从队列中取出任务来执行。他的主要特点为：线程复用；控制最大并发数；管理线程。
      ```
 
-9.  NET为什么第一次执行比较慢?
+1.  NET为什么第一次执行比较慢?
 
    - 源代码（cs等文件）--->编译为IL代码，双击exe文件，CLR程序自动启动，加载exe文件，并根据引用情况，加载dll文件
      找到主入口main方法，即时将IL代码编译为机器代码，执行，根据引用的情况，不断的加载IL代码，编译为机器代码，执行，执行完了以后不会把编译好的代码清除出内存，下载直接用。
@@ -78,7 +109,7 @@
      源代码 到 IL中间语言，这是可以分发了 在别的机器运行时，才真正编译到机器语言，和传统的编译语言不同。
      编译器从来都不会编译为c，汇编等语言的吧
 
-10. 概述.NET中的GC机制。
+2.  概述.NET中的GC机制。
 
  ```
  
