@@ -5,6 +5,7 @@
    - 配置文件（ settings json ）
    - 支持异步编程
    - 支持web socket和signal IR
+   - 开放源码和社区
 
 2. NetCore启动流程
   ![pkg-init](./netImages/webapi-start.png)
