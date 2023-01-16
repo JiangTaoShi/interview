@@ -12,7 +12,7 @@
 
 
 ## .Net
-- 
+- [.NetCore面试题](.net/.NetCore)
 
 ## MySQL
 - [基础](mysql/MySQL基础.md)
