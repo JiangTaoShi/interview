@@ -34,10 +34,14 @@
 - [基础面试题](redis/Redis.md)
 - [你真的懂 Redis 与 MySQL 双写一致性如何保证吗？](https://xie.infoq.cn/article/0053b76bedbd7dd40137beecb)  
 - [海量并发下的缓存架构设计](https://mp.weixin.qq.com/s/9tblPSzLvEagjlYuA-RnUw)  
+- [高可用（主从、哨兵、集群）](https://xie.infoq.cn/article/6c3500c66c3cdee3d72b88780)  
+- [Redis Stream 专为队列而生，别再用 List 实现队列了](https://xie.infoq.cn/article/4b8e89e3605363b7e621d580f)  
+
 
 
 ## 分布式
 - [理论](distributed/分布式理论.md)
+- [Dapr：我不是 Service Mesh！我只是长得很像](https://xie.infoq.cn/article/950b7ede0479f9f337b4bf2a9)
 
 ## RabbitMQ
 - [基础面试题](rabbitmq/RabbitMQ.md)
@@ -56,6 +60,9 @@
 ## 数据结构
 - 
 
+
+## DevOps
+- [中大型组织 DevOps 成熟度模型设计](https://xie.infoq.cn/article/ff46d62262813cdae1fb4e79d) 
 
 
 
