@@ -16,6 +16,8 @@
 - [DbContext 生存期、配置和初始化](https://learn.microsoft.com/zh-cn/ef/core/dbcontext-configuration/)  
 - [ASP.NET Core 依赖注入](https://learn.microsoft.com/zh-cn/aspnet/core/fundamentals/dependency-injection?view=aspnetcore-5.0#service-lifetimes)  
 - [Entity Framework Core 简介](https://learn.microsoft.com/zh-cn/dotnet/architecture/microservices/microservice-ddd-cqrs-patterns/infrastructure-persistence-layer-implementation-entity-framework-core)  
+- [管道模型及中间件使用解读](https://www.cnblogs.com/jlion/p/12392384.html)  
+
 
 ## MySQL
 - [基础](mysql/MySQL基础.md)
