@@ -17,6 +17,7 @@
 ## MySQL
 - [基础](mysql/MySQL基础.md)
 - [高级知识点](mysql/MySQL高级知识点.md)
+- [优化问题](mysql/MySQL优化问题.xmind)
 
 ## Redis
 - [基础面试题](redis/Redis.md)
@@ -30,6 +31,12 @@
 ## Kubernetes
 - [Docker基本概念](https://www.yuque.com/leifengyang/oncloud/mbvigg)  
 - [Kubernetes基础概念](https://www.yuque.com/leifengyang/oncloud/ghnb83)  
+
+## 设计模式
+- [常见设计模式](designmode/设计模式.md)
+
+## 网络
+- [基础概念](network/网络.md)
 
 
 
