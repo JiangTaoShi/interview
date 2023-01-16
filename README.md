@@ -1,6 +1,6 @@
 # Summary
 
-收集整理GoLang、.Net Core、DevOps、MySql等基础和面试知识
+收集整理GoLang、.Net Core、DevOps、MySql等等，基础和面试知识
 
 欢迎Star&&Issue&&Pull Request
 
