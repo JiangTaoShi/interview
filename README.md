@@ -19,13 +19,13 @@
 - [高级知识点](mysql/MySQL高级知识点.md)
 
 ## Redis
-- [常见面试题](redis/Redis.md)
+- [基础面试题](redis/Redis.md)
 
 ## 分布式
 - [理论](distributed/分布式理论.md)
 
 ## RabbitMQ
-- [常见面试题](rabbitmq/RabbitMQ.md)
+- [基础面试题](rabbitmq/RabbitMQ.md)
 
 ## Kubernetes
 - [Docker基本概念](https://www.yuque.com/leifengyang/oncloud/mbvigg)  
