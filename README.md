@@ -18,9 +18,14 @@
 - [基础](mysql/MySQL基础.md)
 - [高级知识点](mysql/MySQL高级知识点.md)
 - [优化问题](mysql/MySQL优化问题.xmind)
+- [必修：事务](https://xie.infoq.cn/article/f0231cd29e814cc04ba4364db)  
+- [阿里二面：怎么解决 MySQL 死锁问题的？](https://xie.infoq.cn/article/41285fabb8c4ca612d150b415)  
+
 
 ## Redis
 - [基础面试题](redis/Redis.md)
+- [你真的懂 Redis 与 MySQL 双写一致性如何保证吗？](https://xie.infoq.cn/article/0053b76bedbd7dd40137beecb)  
+
 
 ## 分布式
 - [理论](distributed/分布式理论.md)
