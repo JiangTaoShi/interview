@@ -8,7 +8,7 @@
 - 
 
 ## .Net 相关 
-- [.Net Core](.net/.NetCore.md)
+- 
 
 ## MySQL 相关
 - [基础](mysql/MySQL基础.md)
