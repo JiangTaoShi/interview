@@ -2,7 +2,7 @@
 
 收集整理GoLang、.Net Core、DevOps、MySql 基础面试知识
 
-欢迎
+欢迎Issue&&Pull Request
 
 ## Golang 常见面试题目解析
 - 
@@ -19,3 +19,9 @@
 
 ## 分布式 相关
 - [理论](distributed/分布式理论.md)
+
+
+## 鸣谢
+
+### 感谢各位Star朋友
+
