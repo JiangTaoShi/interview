@@ -1,6 +1,6 @@
 # Summary 💎
 
-> 收集整理GoLang、.Net Core、DevOps、MySql等等，基础和面试知识
+> 收集整理GoLang、dotNet 、DevOps、MySql等等，基础和面试知识
 
 
 ## Give a Star! ⭐️
@@ -15,8 +15,8 @@ Thank you very much.
 - [写Go还是Java？](https://mp.weixin.qq.com/s/Xw6QKXWqueQfiQp5c1QumQ)  
 
 
-## .Net
-- [.NetCore面试题](.net/.NetCore.md)
+## dotNet
+- [dotNetCore面试题](.net/.NetCore.md)
 - [DbContext 生存期、配置和初始化](https://learn.microsoft.com/zh-cn/ef/core/dbcontext-configuration/)  
 - [ASP.NET Core 依赖注入](https://learn.microsoft.com/zh-cn/aspnet/core/fundamentals/dependency-injection?view=aspnetcore-5.0#service-lifetimes)  
 - [Entity Framework Core 简介](https://learn.microsoft.com/zh-cn/dotnet/architecture/microservices/microservice-ddd-cqrs-patterns/infrastructure-persistence-layer-implementation-entity-framework-core)  
