@@ -1,9 +1,10 @@
-# Summary
+# Summary 💎
 
-收集整理GoLang、.Net Core、DevOps、MySql等等，基础和面试知识
+> 收集整理GoLang、.Net Core、DevOps、MySql等等，基础和面试知识
 
 
 ## Give a Star! ⭐️
+
 If you liked this repo or if it helped you, please give a star ⭐️ for this repository. 
 Thank you very much.
 
