@@ -2,7 +2,10 @@
 
 收集整理GoLang、.Net Core、DevOps、MySql等等，基础和面试知识
 
-欢迎Star&&Issue&&Pull Request
+
+## Give a Star! ⭐️
+If you liked this repo or if it helped you, please give a star ⭐️ for this repository. 
+Thank you very much.
 
 ## Golang
 - [GO工程化社区实践](https://mp.weixin.qq.com/s/vHkrgM8lfFQ6stCWH0tnTg)  
