@@ -82,6 +82,13 @@ Thank you very much.
 - [InfoQ-仰望星空 2023年技术趋势展望](https://www.infoq.cn/video/x0HfHmI6FDZf6fSLwMch) 
 - [InfoQ-中国软件技术发展洞察和趋势预测研究报告2023](pdf/中国软件技术发展洞察和趋势预测研究报告2023.pdf) 
 
+
+# 项目贡献
+
+我们非常希望您可以和我们一起贡献这个项目。贡献内容包括不限于代码的维护、应用/组件的贡献、文档的完善等，更多详情可以参考[ 🏆 贡献指南](./CONTRIBUTING.md)。
+
+与此同时，我们也非常感谢所有[ 👬 参与贡献的小伙伴](./CONTRIBUTORS.md)，为 Serverless Devs 项目贡献的努力和汗水。
+
 # 交流
 
 您如果有关于错误的反馈或者未来的期待，您可以在 [Issues](https://github.com/serverless-devs/serverless-devs/issues) 中进行反馈和交流。
