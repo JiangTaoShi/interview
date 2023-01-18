@@ -1,7 +1,7 @@
 # 💎 Summary
 
 ## 期望及初心
-- 把日常看到觉得比较好文章及学到的东西收集整理
+- 把日常看到觉得比较好文章和学到的东西收集整理
 - 希望和更多人可以一起交流、学习
 
 
@@ -81,6 +81,18 @@ Thank you very much.
 ## 总结
 - [InfoQ-仰望星空 2023年技术趋势展望](https://www.infoq.cn/video/x0HfHmI6FDZf6fSLwMch) 
 - [InfoQ-中国软件技术发展洞察和趋势预测研究报告2023](pdf/中国软件技术发展洞察和趋势预测研究报告2023.pdf) 
+
+# 交流
+
+您如果有关于错误的反馈或者未来的期待，您可以在 [Issues](https://github.com/serverless-devs/serverless-devs/issues) 中进行反馈和交流。
+如果您想要加入我们的讨论组或者了解的最新动态，您可以通过以下渠道进行：
+
+<p align="center">
+
+|  <img src="./pdf/jiangtao.jpg" width="200px" > |
+|--- |
+| <center>扫码加微信：`JiangtaoShi_`</center> | 
+</p>
 
 
 
