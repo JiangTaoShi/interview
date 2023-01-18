@@ -1,9 +1,9 @@
-# Summary 💎
+# 💎 Summary
 
 > 把自己看觉得比较好的文章及学到的东西收集整理,希望可以共同进步.
 
 
-## Give a Star! ⭐️
+## ⭐️ Give a Star! 
 
 If you liked this repo or if it helped you, please give a star ⭐️ for this repository. 
 Thank you very much. 
@@ -43,7 +43,6 @@ Thank you very much.
 - [海量并发下的缓存架构设计](https://mp.weixin.qq.com/s/9tblPSzLvEagjlYuA-RnUw)  
 - [高可用（主从、哨兵、集群）](https://xie.infoq.cn/article/6c3500c66c3cdee3d72b88780)  
 - [Redis Stream 专为队列而生，别再用 List 实现队列了](https://xie.infoq.cn/article/4b8e89e3605363b7e621d580f)  
-
 
 
 ## 分布式
