@@ -70,8 +70,8 @@ Thank you very much.
 - [DevOps 已死，平台工程才是未来](https://www.infoq.cn/article/7porVp7qVF03BVc2tDd6) 
 
 
-## 个人成长
-
+## 总结
+- [仰望星空， 2023年技术趋势展望](https://www.infoq.cn/video/x0HfHmI6FDZf6fSLwMch) 
 
 
 
