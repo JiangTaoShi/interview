@@ -1,6 +1,6 @@
 # Summary 💎
 
-> 把自己看觉得比较好的文章及自身学到的东西收集整理,希望可以共同进步.
+> 把自己看觉得比较好的文章及学到的东西收集整理,希望可以共同进步.
 
 
 ## Give a Star! ⭐️
@@ -67,6 +67,11 @@ Thank you very much.
 
 ## DevOps
 - [中大型组织 DevOps 成熟度模型设计](https://xie.infoq.cn/article/ff46d62262813cdae1fb4e79d) 
+- [DevOps 已死，平台工程才是未来](https://www.infoq.cn/article/7porVp7qVF03BVc2tDd6) 
+
+
+## 个人成长
+
 
 
 
