@@ -13,6 +13,8 @@ Thank you very much.
 - [GO工程化规范设计](https://mp.weixin.qq.com/s/1cy0vbiU5MZNVazvOsMf5Q)  
 - [如果你是一个Golang面试官，你会问哪些问题？](https://mp.weixin.qq.com/s/vHkrgM8lfFQ6stCWH0tnTg)  
 - [写Go还是Java？](https://mp.weixin.qq.com/s/Xw6QKXWqueQfiQp5c1QumQ)  
+- [性能优化究竟应该怎么做？【Go 夜读】](https://www.bilibili.com/video/BV1Z64y1m7uc/?is_story_h5=false&p=1&share_from=ugc&share_medium=iphone&share_plat=ios&share_session_id=FD026352-8021-42BF-8593-40F31C78D31B&share_source=WEIXIN_MONMENT&share_tag=s_i&timestamp=1663564288&unique_k=46fRLwQ&vd_source=a178e036ec67d254756a661c72a9d0e3)  
+- [5个编写技巧，有效提高单元测试实践](https://mp.weixin.qq.com/s/wQjFlXbK3MqKTUX2TfRR0g)  
 
 
 ## dotNet
@@ -31,7 +33,8 @@ Thank you very much.
 - [阿里二面：怎么解决 MySQL 死锁问题的？](https://xie.infoq.cn/article/41285fabb8c4ca612d150b415)  
 - [一次 MySQL 千万级大表的优化过程](https://developer.aliyun.com/article/781987?spm=a2c6h.12873581.0.0.6f0595b0laKOAU&groupCode=maxcompute)  
 
-
+## ClickHouse
+- [基于ClickHouse的百亿级广告平台实时数仓构建实战](https://mp.weixin.qq.com/s/MQEXyhyhSOHCt6YF4PFXEw)  
 
 
 ## Redis
@@ -45,7 +48,7 @@ Thank you very much.
 
 ## 分布式
 - [理论](distributed/分布式理论.md)
-- [Dapr：我不是 Service Mesh！我只是长得很像](https://xie.infoq.cn/article/950b7ede0479f9f337b4bf2a9)
+
 
 ## RabbitMQ
 - [基础面试题](rabbitmq/RabbitMQ.md)
@@ -53,6 +56,8 @@ Thank you very much.
 ## Kubernetes
 - [Docker基本概念](https://www.yuque.com/leifengyang/oncloud/mbvigg)  
 - [Kubernetes基础概念](https://www.yuque.com/leifengyang/oncloud/ghnb83)  
+- [Dapr：我不是 Service Mesh！我只是长得很像](https://xie.infoq.cn/article/950b7ede0479f9f337b4bf2a9)
+- [K8s 很难么？带你从头到尾捋一遍，不信你学不会！](https://mp.weixin.qq.com/s/hgCAx5HRiLyIbLffYBpuog)
 
 ## 设计模式
 - [常见设计模式](designmode/设计模式.md)
