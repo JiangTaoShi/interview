@@ -1,6 +1,6 @@
 # Summary 💎
 
-> 收集整理GoLang、dotNet 、DevOps、MySql等等，基础和面试知识
+> 闲暇之余会把自己看觉得比较好的文章及自己这段时间学习心得收集整理
 
 
 ## Give a Star! ⭐️
