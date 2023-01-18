@@ -35,6 +35,8 @@ Thank you very much.
 
 ## ClickHouse
 - [基于ClickHouse的百亿级广告平台实时数仓构建实战](https://mp.weixin.qq.com/s/MQEXyhyhSOHCt6YF4PFXEw)  
+- [ClickHouse基础&实践&调优全视角解析](https://mp.weixin.qq.com/s/aJ7vdaG8LpBpBB5fCN0ncQ)  
+- [分布式表&本地表详解](https://mp.weixin.qq.com/s/ENG6rN5i28fFdDBn1MZm1A)  
 
 
 ## Redis
