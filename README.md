@@ -76,6 +76,7 @@ Thank you very much.
 ## DevOps
 - [中大型组织 DevOps 成熟度模型设计](https://xie.infoq.cn/article/ff46d62262813cdae1fb4e79d) 
 - [DevOps 已死，平台工程才是未来](https://www.infoq.cn/article/7porVp7qVF03BVc2tDd6) 
+- [DevOps工程师到底要做什么事情？](https://time.geekbang.org/column/article/96895?utm_source=related_read&utm_medium=article&utm_term=related_read) 
 
 
 ## 总结
