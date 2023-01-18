@@ -72,6 +72,7 @@ Thank you very much.
 
 ## 总结
 - [仰望星空， 2023年技术趋势展望](https://www.infoq.cn/video/x0HfHmI6FDZf6fSLwMch) 
+- [InfoQ-中国软件技术发展洞察和趋势预测研究报告2023](pdf/中国软件技术发展洞察和趋势预测研究报告2023.pdf) 
 
 
 
