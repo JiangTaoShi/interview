@@ -19,7 +19,7 @@ Thank you very much.
 - [5个编写技巧，有效提高单元测试实践](https://mp.weixin.qq.com/s/wQjFlXbK3MqKTUX2TfRR0g)  
 
 
-## dotNet
+## DotNet
 - [dotNetCore面试题](.net/.NetCore.md)
 - [DbContext 生存期、配置和初始化](https://learn.microsoft.com/zh-cn/ef/core/dbcontext-configuration/)  
 - [ASP.NET Core 依赖注入](https://learn.microsoft.com/zh-cn/aspnet/core/fundamentals/dependency-injection?view=aspnetcore-5.0#service-lifetimes)  
