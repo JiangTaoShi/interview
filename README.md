@@ -22,6 +22,7 @@ Thank you very much.
 ## DotNet
 - [dotNetCore面试题](.net/.NetCore.md)
 - [杨中科：谁说.NET没有GC调优?](https://mp.weixin.qq.com/s/DXnE88avIUE1HT61KWC9-A)  
+- [.NET内存性能分析指南](https://github.com/Maoni0/mem-doc/blob/master/doc/.NETMemoryPerformanceAnalysis.zh-CN.md)  
 - [DbContext 生存期、配置和初始化](https://learn.microsoft.com/zh-cn/ef/core/dbcontext-configuration/)  
 - [ASP.NET Core 依赖注入](https://learn.microsoft.com/zh-cn/aspnet/core/fundamentals/dependency-injection?view=aspnetcore-5.0#service-lifetimes)  
 - [Entity Framework Core 简介](https://learn.microsoft.com/zh-cn/dotnet/architecture/microservices/microservice-ddd-cqrs-patterns/infrastructure-persistence-layer-implementation-entity-framework-core)  
