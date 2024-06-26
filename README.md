@@ -98,7 +98,7 @@ Thank you very much.
 如果您想要加入我们的讨论组或者了解的最新动态，您可以通过以下渠道进行：
 
 <p align="center">
-
+ 
 |  <img src="./pdf/jiangtao.jpg" width="200px" > |
 |--- |
 | <center>扫码加微信：`JiangtaoShi_`</center> | 
