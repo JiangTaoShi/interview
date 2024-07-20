@@ -11,13 +11,14 @@
 
 * arm架构
 
-  ![](D:\Up\interview\netImages\xc2.png)
-
+  ![](../netImages/xc2.png)
 * x86-64架构
 
-  ![](D:\Up\interview\netImages\xc1.png)
+  ![](../netImages/xc1.png)
 
 ## 数据库迁移
+将SQL Server迁到国产达梦数据库,表结构及字段类型、存储过程、触发器、函数、视图均支持
+  ![](../netImages/dm.png)
 
 ## 代码升级
 
