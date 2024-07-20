@@ -20,6 +20,7 @@ Thank you very much.
 
 
 ## DotNet
+- [国产化信创实践](.net/Localization.md)
 - [dotNetCore面试题](.net/.NetCore.md)
 - [杨中科：谁说.NET没有GC调优?](https://mp.weixin.qq.com/s/DXnE88avIUE1HT61KWC9-A)  
 - [.NET内存性能分析指南](https://github.com/Maoni0/mem-doc/blob/master/doc/.NETMemoryPerformanceAnalysis.zh-CN.md)  
