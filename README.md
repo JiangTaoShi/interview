@@ -11,7 +11,7 @@ If you liked this repo or if it helped you, please give a star ⭐️ for this r
 Thank you very much.
 
 ## 国产化信创
-- [Net7环境搭建及测试](.net/Localization.md)
+- [Net7环境搭建](.net/Localization.md)
 - [SQLServer迁移至达梦](.net/Localization.md)
 
 ## Golang
