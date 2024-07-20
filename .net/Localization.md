@@ -10,10 +10,12 @@
 分别在阿里云和本地虚机安装麒麟镜像作为测试环境
 
 * arm架构
-  ![xc2](netImages/xc2.png.png)
+
+  ![](D:\Up\interview\netImages\xc2.png)
+
 * x86-64架构
 
-  ![xc1](netImages/xc1.png)
+  ![](D:\Up\interview\netImages\xc1.png)
 
 ## 数据库迁移
 
