@@ -23,7 +23,7 @@
 
 ## 代码升级
 
-1. 目前是通过配置来实现,配置文件`appsettings.json`、节点`DatabaseSettings`
+1. 由于没有使用`ORM`框架,目前是通过配置来实现,配置文件`appsettings.json`、节点`DatabaseSettings`
    
    - `ProviderType` 目前支持`SQLServer`、`Dameng` 等多种方式访问数据库,如不配置则默认`SQLServer`方式
    - `ConnectionString` 数据库连接字符串
