@@ -33,7 +33,7 @@
    {
      "DatabaseSettings": {
        "ProviderType": "Dameng",
-       "ConnectionString": "Server=127.0.0.1:5237; UserId=xxx; PWD=xxx;Schema=hbsysdb",
+       "ConnectionString": "Server=127.0.0.1:5237; UserId=xxx; PWD=xxx;Schema=xxxx",
        "DmDtVarchar36ToGuid": true
      }
    }
